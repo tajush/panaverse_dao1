@@ -6,7 +6,7 @@ export default function Home() {
  
   
   return (
-   <div className=' text-secondry'>
+   <div >
     <Navbar />
     
     fgfrdf

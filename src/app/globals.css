@@ -2,16 +2,5 @@
 @tailwind components;
 @tailwind utilities;
 
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  
-}
 
-.centered {
-  position: absolute;
-  text-align: center;
-  
-}
 
