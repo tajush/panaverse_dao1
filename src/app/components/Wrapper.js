@@ -1,4 +1,4 @@
-"use server"
+
 import React, { Children } from 'react'
 
 const Wrapper = ({children}) => {
