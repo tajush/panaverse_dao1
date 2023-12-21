@@ -7,8 +7,9 @@ import Link from "next/link";
 const Navbar = () => {
   return (
    
-    
+ 
        <header className="h-auto z-20 sticky inset-0 backdrop-blur-md py-3 bg-white bg-opacity-90">
+        <Wrapper >
       <div className="flex justify-between py-5 items-center">
         {/* logo */}
         <Link className="hover:text-teal-700 duration-300" href={"/"}>
@@ -46,6 +47,7 @@ const Navbar = () => {
           </Link>
         </ul>
       </div>
+      </Wrapper>
       </header>
    
 

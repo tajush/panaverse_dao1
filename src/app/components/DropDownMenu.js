@@ -69,7 +69,8 @@ const Navbar = () => {
           <Link href={"/projects"}>
             <AnimatedLink title={"Projects"} />
           </Link>
-          <AnimatedLink title={"Contact"} />
+          <Link href={"/Contact"}><AnimatedLink title={"Contact"} /></Link>
+          
         </div>
         <div
           className="cursor-pointer lg:hidden text-md text-black"
